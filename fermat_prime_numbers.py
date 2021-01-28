@@ -37,6 +37,6 @@ def prime_fermat_number(n):
 	for j in new_list:
 		if is_prime(j):
 			prime_list.append(j)
-	print("The first "+str(n)+" Fermat number are: "+str(new_list))
+	print("The first "+str(n)+" Fermat numbers are: "+str(new_list))
 	print("The prime Fermat numbers in this list are: "+str(prime_list))
 	return
